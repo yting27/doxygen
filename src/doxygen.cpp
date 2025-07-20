@@ -9949,6 +9949,58 @@ void printSectionsTree()
   }
 }
 
+static void getMemberReferences() {
+  // TODO (ytng): see how...
+  for (const auto &mn : *Doxygen::memberNameLinkedMap)
+  {
+    for (auto md = mn->begin(); md != mn->end(); ++md)
+    {
+      Debug::print(Debug::Sections,0,"Member Name = {}\n",mn->memberName());
+
+      MemberDefMutable *mmd = toMemberDefMutable(md->get());
+      if (mmd)
+      {
+        if (mmd->getEndBodyLine() == -1) {
+            Debug::print(Debug::Sections,0,"  Member = {} ({}), file = {}:{}, type = {}\n",
+              mmd->name(),
+              mmd->definition(),
+              mmd->getBodyDef()->absFilePath(), mmd->getStartBodyLine(),
+              mmd->memberTypeName());
+        } else {
+            Debug::print(Debug::Sections,0,"  Member = {} ({}), file = {}:{}:{}, type = {}\n",
+                mmd->name(),
+                mmd->definition(),
+                mmd->getBodyDef()->absFilePath(), mmd->getStartBodyLine(), mmd->getEndBodyLine(),
+                mmd->memberTypeName());
+        }
+
+        // Print its reference members
+        Debug::print(Debug::Sections,0,"    Reference =\n");
+        std::function<void(const MemberDef*, int)> recurse_ref;
+        recurse_ref = [&](const MemberDef* mem_def, int indent=0) {
+          const int spaceSize = 2;
+          auto refs = mem_def->getReferencesMembers();
+          for (const auto &rmd : refs)
+          {
+            if (rmd->isCallable())
+            {
+              QCString name = rmd->qualifiedName();
+              if (indent == 0) {
+                Debug::print(Debug::Sections,0,"      {}\n", name.isEmpty()? "<empty>" : name);
+              } else {
+                Debug::print(Debug::Sections,0,"      {}|__ {}\n", std::string(" ", indent*spaceSize), name.isEmpty()? "<empty>" : name);
+              }
+              recurse_ref(rmd, indent+1);
+            }
+          }
+        };
+
+        recurse_ref(mmd, 0);
+      }
+    }
+  }
+}
+
 
 //----------------------------------------------------------------------------
 // generate the example documentation
@@ -13191,6 +13243,10 @@ void generateOutput()
   g_s.begin("Generating file sources...\n");
   generateFileSources();
   g_s.end();
+
+  // Get references
+  // TODO (ytng):
+  getMemberReferences();
 
   g_s.begin("Generating file documentation...\n");
   generateFileDocs();
