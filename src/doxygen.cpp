@@ -9986,9 +9986,14 @@ static void getMemberReferences() {
             {
               QCString name = rmd->qualifiedName();
               if (indent == 0) {
-                Debug::print(Debug::Sections,0,"      {}\n", name.isEmpty()? "<empty>" : name);
+                Debug::print(Debug::Sections,0,"      {}, file = {}:{}:{}\n",
+                  name.isEmpty()? "<empty>" : name,
+                  rmd->getBodyDef()->absFilePath(), rmd->getStartBodyLine(), rmd->getEndBodyLine());
               } else {
-                Debug::print(Debug::Sections,0,"      {}|__ {}\n", std::string(" ", indent*spaceSize), name.isEmpty()? "<empty>" : name);
+                Debug::print(Debug::Sections,0,"      {}|__ {}, file = {}:{}:{}\n",
+                  std::string(" ", indent*spaceSize),
+                  name.isEmpty()? "<empty>" : name,
+                  rmd->getBodyDef()->absFilePath(), rmd->getStartBodyLine(), rmd->getEndBodyLine());
               }
               recurse_ref(rmd, indent+1);
             }
