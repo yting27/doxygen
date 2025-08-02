@@ -1,0 +1,496 @@
+Doxygen version used: 1.15.0 (ef24fa13a8c2d06ff50877f95ab7b3295a7bb9aa*)
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for plantuml files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests
+Reading and parsing tag files
+Parsing files
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/main.cpp...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/main.cpp...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h...
+Reading /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/README.md...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp...
+Preprocessing /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h...
+Parsing file /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h...
+Building macro definition list...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Building concept list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Associating documentation with concepts...
+Associating documentation with modules...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Warn for undocumented namespaces...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Computing module relations...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Computing tooltip texts...
+Section = md_README, file = md_README, title = README, type = 0, ref = 
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file main.cpp...
+Generating code for file port.cpp...
+Generating code for file port.h...
+Generating code for file queuetp.h...
+Parsing code for file README.md...
+Generating code for file vintage_port.cpp...
+Generating code for file vintage_port.h...
+Generating code for file workermi.cpp...
+Generating code for file workermi.h...
+Member Name = @323135140317023233331031211156206025147155240313
+  Member = @323135140317023233331031211156206025147155240313 (Singer::@323135140317023233331031211156206025147155240313), declfile = -:43, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:43:43, type = enumeration
+    Reference =
+Member Name = @354153177230343060303177001047222063125307160076
+  Member = @354153177230343060303177001047222063125307160076 (Singer::@354153177230343060303177001047222063125307160076), declfile = -:41, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:41:42, type = enumeration
+    Reference =
+Member Name = alto
+  Member = alto (@ Singer::alto), declfile = -:41, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:41, type = enumvalue
+    Reference =
+Member Name = baritone
+  Member = baritone (@ Singer::baritone), declfile = -:42, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:42, type = enumvalue
+    Reference =
+Member Name = bass
+  Member = bass (@ Singer::bass), declfile = -:42, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:42, type = enumvalue
+    Reference =
+Member Name = BottleCount
+  Member = BottleCount (int Port::BottleCount), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:17, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:17:17, type = function
+    Reference =
+Member Name = bottles
+  Member = bottles (int Port::bottles), declfile = -:9, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:9, type = variable
+    Reference =
+Member Name = brand
+  Member = brand (char* Port::brand), declfile = -:7, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:7, type = variable
+    Reference =
+Member Name = contralto
+  Member = contralto (@ Singer::contralto), declfile = -:41, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:41, type = enumvalue
+    Reference =
+Member Name = Data
+  Member = Data (void Worker::Data), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:10, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14, type = function
+    Reference =
+Member Name = Data
+  Member = Data (void Waiter::Data), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:26, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:31:34, type = function
+    Reference =
+Member Name = Data
+  Member = Data (void Singer::Data), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:44, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:62:65, type = function
+    Reference =
+Member Name = Data
+  Member = Data (void SingingWaiter::Data), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:62, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:105:109, type = function
+    Reference =
+      Singer::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:62:65
+      Waiter::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:31:34
+Member Name = Dequeue
+  Member = Dequeue (bool QueueTp< T >::Dequeue), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:28, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:75:91, type = function
+    Reference =
+Member Name = Enqueue
+  Member = Enqueue (bool QueueTp< T >::Enqueue), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:27, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:54:72, type = function
+    Reference =
+      QueueTp::isFull, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:30:30
+Member Name = front
+  Member = front (Node* QueueTp< T >::front), declfile = -:15, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:15, type = variable
+    Reference =
+Member Name = fullname
+  Member = fullname (std::string Worker::fullname), declfile = -:7, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:7, type = variable
+    Reference =
+Member Name = Get
+  Member = Get (void Worker::Get), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:11, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:19:28, type = function
+    Reference =
+      Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Get
+  Member = Get (void Waiter::Get), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:27, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:36:43, type = function
+    Reference =
+Member Name = Get
+  Member = Get (void Singer::Get), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:45, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:67:88, type = function
+    Reference =
+Member Name = Get
+  Member = Get (void SingingWaiter::Get), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:63, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:111:115, type = function
+    Reference =
+      Singer::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:67:88
+      Waiter::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:36:43
+Member Name = id
+  Member = id (long Worker::id), declfile = -:8, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:8, type = variable
+    Reference =
+Member Name = isEmpty
+  Member = isEmpty (bool QueueTp< T >::isEmpty), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:29, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:29:29, type = function
+    Reference =
+Member Name = isFull
+  Member = isFull (bool QueueTp< T >::isFull), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:30, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:30:30, type = function
+    Reference =
+Member Name = item
+  Member = item (T QueueTp< T >::Node::item), declfile = -:11, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:11, type = variable
+    Reference =
+Member Name = items
+  Member = items (int QueueTp< T >::items), declfile = -:18, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:18, type = variable
+    Reference =
+Member Name = next
+  Member = next (Node* QueueTp< T >::Node::next), declfile = -:12, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:12, type = variable
+    Reference =
+Member Name = nickname
+  Member = nickname (char* VintagePort::nickname), declfile = -:7, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:7, type = variable
+    Reference =
+Member Name = operator+=
+  Member = operator+= (Port & Port::operator+=), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:15, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:38:48, type = function
+    Reference =
+      Port::operator-=, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:50:61
+        |__ Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = operator-=
+  Member = operator-= (Port & Port::operator-=), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:16, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:50:61, type = function
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = operator<<
+  Member = operator<< (std::ostream & operator<<), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:19, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:70:77, type = friend
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = operator<<
+  Member = operator<< (std::ostream & operator<<), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:17, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:49:56, type = friend
+    Reference =
+      VintagePort::VintagePort, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:4:9
+        |__ Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = operator=
+  Member = operator= (Port & Port::operator=), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:14, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:24:36, type = function
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = operator=
+  Member = operator= (QueueTp< T > & QueueTp< T >::operator=), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:22, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:22:22, type = function
+    Reference =
+Member Name = operator=
+  Member = operator= (VintagePort & VintagePort::operator=), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:15, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:27:40, type = function
+    Reference =
+      Port::operator=, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:24:36
+        |__ Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+      VintagePort::VintagePort, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:4:9
+        |__ Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = other
+  Member = other (@ Singer::other), declfile = -:41, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:41, type = enumvalue
+    Reference =
+Member Name = panache
+  Member = panache (int Waiter::panache), declfile = -:24, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:24, type = variable
+    Reference =
+Member Name = Port
+  Member = Port (Port::Port), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:11, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11, type = function
+    Reference =
+Member Name = Port
+  Member = Port (Port::Port), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:12, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:13:22, type = function
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+      Waiter::Show, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:52:57
+        |__ Waiter::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:31:34
+        |__ Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = pv
+  Member = pv (const char * Singer::pv), declfile = -:47, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:60:60, type = variable
+    Reference =
+Member Name = qSize
+  Member = qSize (const int QueueTp< T >::qSize), declfile = -:19, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:19, type = variable
+    Reference =
+Member Name = QUEUE_SIZE
+  Member = QUEUE_SIZE (const int QueueTp< T >::QUEUE_SIZE), declfile = -:7, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:7, type = variable
+    Reference =
+Member Name = QueueCount
+  Member = QueueCount (int QueueTp< T >::QueueCount), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:31, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:31:31, type = function
+    Reference =
+Member Name = QueueTp
+  Member = QueueTp (QueueTp< T >::QueueTp), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:21, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:21:21, type = function
+    Reference =
+Member Name = QueueTp
+  Member = QueueTp (QueueTp< T >::QueueTp), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:25, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:35:38, type = function
+    Reference =
+Member Name = rear
+  Member = rear (Node* QueueTp< T >::rear), declfile = -:16, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:16, type = variable
+    Reference =
+Member Name = Set
+  Member = Set (virtual void Worker::Set), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:17, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:-1, type = function
+    Reference =
+Member Name = Set
+  Member = Set (void Waiter::Set), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:34, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:45:50, type = function
+    Reference =
+      Waiter::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:36:43
+      Worker::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:19:28
+        |__ Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Set
+  Member = Set (void Singer::Set), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:55, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:90:95, type = function
+    Reference =
+      Singer::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:67:88
+      Worker::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:19:28
+        |__ Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Set
+  Member = Set (void SingingWaiter::Set), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:75, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:117:122, type = function
+    Reference =
+      SingingWaiter::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:111:115
+        |__ Singer::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:67:88
+        |__ Waiter::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:36:43
+      Worker::Get, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:19:28
+        |__ Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Show
+  Member = Show (void Port::Show), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:18, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:63:68, type = function
+    Reference =
+Member Name = Show
+  Member = Show (void VintagePort::Show), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:16, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:42:47, type = function
+    Reference =
+      Port::Show, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:63:68
+Member Name = Show
+  Member = Show (virtual void Worker::Show), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:18, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:-1, type = function
+    Reference =
+Member Name = Show
+  Member = Show (void Waiter::Show), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:35, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:52:57, type = function
+    Reference =
+      Waiter::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:31:34
+      Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Show
+  Member = Show (void Singer::Show), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:56, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:97:102, type = function
+    Reference =
+      Singer::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:62:65
+      Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Show
+  Member = Show (void SingingWaiter::Show), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:76, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:124:129, type = function
+    Reference =
+      SingingWaiter::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:105:109
+        |__ Singer::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:62:65
+        |__ Waiter::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:31:34
+      Worker::Data, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:10:14
+Member Name = Singer
+  Member = Singer (Singer::Singer), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:50, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:50:50, type = function
+    Reference =
+      Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = Singer
+  Member = Singer (Singer::Singer), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:51, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:51:52, type = function
+    Reference =
+      Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = Singer
+  Member = Singer (Singer::Singer), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:53, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:53:54, type = function
+    Reference =
+      Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = SingingWaiter
+  Member = SingingWaiter (SingingWaiter::SingingWaiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:65, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:65:65, type = function
+    Reference =
+Member Name = SingingWaiter
+  Member = SingingWaiter (SingingWaiter::SingingWaiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:66, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:66:68, type = function
+    Reference =
+      Singer::Singer, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:50:50
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+      Waiter::Waiter, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:29:29
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = SingingWaiter
+  Member = SingingWaiter (SingingWaiter::SingingWaiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:69, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:69:70, type = function
+    Reference =
+      Singer::Singer, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:50:50
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+      Waiter::Waiter, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:29:29
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = SingingWaiter
+  Member = SingingWaiter (SingingWaiter::SingingWaiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:71, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:71:72, type = function
+    Reference =
+      Singer::Singer, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:50:50
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+      Waiter::Waiter, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:29:29
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = SingingWaiter
+  Member = SingingWaiter (SingingWaiter::SingingWaiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:73, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:73:74, type = function
+    Reference =
+      Singer::Singer, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:50:50
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+      Waiter::Waiter, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:29:29
+        |__ Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = soprano
+  Member = soprano (@ Singer::soprano), declfile = -:41, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:41, type = enumvalue
+    Reference =
+Member Name = style
+  Member = style (char Port::style[20]), declfile = -:8, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:8, type = variable
+    Reference =
+Member Name = tenor
+  Member = tenor (@ Singer::tenor), declfile = -:42, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:42, type = enumvalue
+    Reference =
+Member Name = VintagePort
+  Member = VintagePort (VintagePort::VintagePort), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:11, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:4:9, type = function
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = VintagePort
+  Member = VintagePort (VintagePort::VintagePort), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:12, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:11:17, type = function
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = VintagePort
+  Member = VintagePort (VintagePort::VintagePort), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:13, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:19:25, type = function
+    Reference =
+      Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+      VintagePort::VintagePort, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.cpp:4:9
+        |__ Port::Port, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.cpp:5:11
+Member Name = voice
+  Member = voice (int Singer::voice), declfile = -:48, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:48, type = variable
+    Reference =
+Member Name = Vtypes
+  Member = Vtypes (@ Singer::Vtypes), declfile = -:43, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:43, type = enumvalue
+    Reference =
+Member Name = Waiter
+  Member = Waiter (Waiter::Waiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:29, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:29:29, type = function
+    Reference =
+      Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = Waiter
+  Member = Waiter (Waiter::Waiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:30, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:30:31, type = function
+    Reference =
+      Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = Waiter
+  Member = Waiter (Waiter::Waiter), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:32, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:32:33, type = function
+    Reference =
+      Worker::Worker, file = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13
+Member Name = Worker
+  Member = Worker (Worker::Worker), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:13:13, type = function
+    Reference =
+Member Name = Worker
+  Member = Worker (Worker::Worker), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:14, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:14:15, type = function
+    Reference =
+Member Name = year
+  Member = year (int VintagePort::year), declfile = -:8, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:8, type = variable
+    Reference =
+Member Name = ~Port
+  Member = ~Port (virtual Port::~Port), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:13, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/port.h:13:13, type = function
+    Reference =
+Member Name = ~QueueTp
+  Member = ~QueueTp (QueueTp< T >::~QueueTp), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:26, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/queuetp.h:41:51, type = function
+    Reference =
+Member Name = ~VintagePort
+  Member = ~VintagePort (VintagePort::~VintagePort), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:14, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/vintage_port.h:14:14, type = function
+    Reference =
+Member Name = ~Worker
+  Member = ~Worker (Worker::~Worker), declfile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.h:16, bodyFile = /mnt/c/Users/ngyen/Documents/Projects/code_study/doxygen/examples/yt_tests/workermi.cpp:8:8, type = function
+    Reference =
+Generating file documentation...
+Generating docs for file main.cpp...
+Generating call graph for function main
+Generating docs for file port.cpp...
+Generating docs for file port.h...
+Generating docs for file queuetp.h...
+Generating docs for file README.md...
+Generating docs for file vintage_port.cpp...
+Generating docs for file vintage_port.h...
+Generating docs for file workermi.cpp...
+Generating docs for file workermi.h...
+Generating page documentation...
+Generating docs for page md_README...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound Port...
+Generating call graph for function Port::Port
+Generating call graph for function Port::operator+=
+Generating call graph for function Port::operator-=
+Generating call graph for function Port::operator=
+Generating docs for compound QueueTp< T >...
+Generating call graph for function QueueTp::Enqueue
+Generating docs for compound Singer...
+Generating call graph for function Singer::Singer
+Generating call graph for function Singer::Singer
+Generating call graph for function Singer::Singer
+Generating call graph for function Singer::Set
+Generating call graph for function Singer::Show
+Generating docs for compound SingingWaiter...
+Generating call graph for function SingingWaiter::SingingWaiter
+Generating call graph for function SingingWaiter::SingingWaiter
+Generating call graph for function SingingWaiter::SingingWaiter
+Generating call graph for function SingingWaiter::SingingWaiter
+Generating call graph for function SingingWaiter::Data
+Generating call graph for function SingingWaiter::Get
+Generating call graph for function SingingWaiter::Set
+Generating call graph for function SingingWaiter::Show
+Generating docs for compound VintagePort...
+Generating call graph for function VintagePort::VintagePort
+Generating call graph for function VintagePort::VintagePort
+Generating call graph for function VintagePort::VintagePort
+Generating call graph for function VintagePort::operator=
+Generating call graph for function VintagePort::Show
+Generating docs for compound Waiter...
+Generating call graph for function Waiter::Waiter
+Generating call graph for function Waiter::Waiter
+Generating call graph for function Waiter::Waiter
+Generating call graph for function Waiter::Set
+Generating call graph for function Waiter::Show
+Generating docs for compound Worker...
+Generating call graph for function Worker::Get
+Generating concept documentation...
+Generating module documentation...
+Generating namespace documentation...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating topic index...
+Generating module index...
+Generating module member index...
+Generating namespace index...
+Generating namespace member index...
+Generating concept index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+Running dot...
+Patching output file 1/1
+type lookup cache used 63/65536 hits=252 misses=75
+symbol lookup cache used 178/65536 hits=891 misses=178
+finished...

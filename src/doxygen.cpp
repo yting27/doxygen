@@ -9961,15 +9961,17 @@ static void getMemberReferences() {
       if (mmd)
       {
         if (mmd->getEndBodyLine() == -1) {
-            Debug::print(Debug::Sections,0,"  Member = {} ({}), file = {}:{}, type = {}\n",
+            Debug::print(Debug::Sections,0,"  Member = {} ({}), declfile = {}:{}, bodyFile = {}:{}, type = {}\n",
               mmd->name(),
               mmd->definition(),
+              mmd->getFileDef() ? mmd->getFileDef()->absFilePath() : "-", mmd->getDefLine(),
               mmd->getBodyDef()->absFilePath(), mmd->getStartBodyLine(),
               mmd->memberTypeName());
         } else {
-            Debug::print(Debug::Sections,0,"  Member = {} ({}), file = {}:{}:{}, type = {}\n",
+            Debug::print(Debug::Sections,0,"  Member = {} ({}), declfile = {}:{}, bodyFile = {}:{}:{}, type = {}\n",
                 mmd->name(),
                 mmd->definition(),
+                mmd->getFileDef() ? mmd->getFileDef()->absFilePath() : "-", mmd->getDefLine(),
                 mmd->getBodyDef()->absFilePath(), mmd->getStartBodyLine(), mmd->getEndBodyLine(),
                 mmd->memberTypeName());
         }
