@@ -153,7 +153,7 @@ static inline void copyToOutput(yyscan_t yyscanner,const char *s,int len);
 static void startCondSection(yyscan_t yyscanner,const QCString &sectId);
 static void endCondSection(yyscan_t yyscanner);
 static void handleCondSectionId(yyscan_t yyscanner,const char *expression);
-static void replaceAliases(yyscan_t yyscanner,std::string_view s,bool replaceComment=false);
+static void replaceAliases(yyscan_t yyscanner,std::string_view s,bool replaceCppComment=false,bool replaceCComment=false);
 static int yyread(yyscan_t yyscanner,char *buf,int max_size);
 static void replaceComment(yyscan_t yyscanner,int offset);
 static void clearCommentStack(yyscan_t yyscanner);
@@ -839,6 +839,16 @@ SLASHopt [/]*
 <Verbatim,VerbatimCode>[^`'~@\/\-\\\n{}]* { /* any character not a backslash or new line or } */
                                      copyToOutput(yyscanner,yytext,yyleng);
                                    }
+<Verbatim,VerbatimCode>[^`'~@\/\-\\\n{}]+/\n{B}*"//" {
+                                     if (yyextra->lastCommentContext!=ReadLine)
+                                     {
+                                       REJECT;
+                                     }
+                                     else
+                                     {
+                                       copyToOutput(yyscanner,yytext,yyleng);
+                                     }
+                                   }
 <Verbatim,VerbatimCode>[^`'~@\/\-\\\n{}]+/\n { /* premature end of comment block */
                                      if (yyextra->lastCommentContext==ReadLine)
                                      {
@@ -854,7 +864,7 @@ SLASHopt [/]*
                                        insertCommentStart(yyscanner);
                                      }
                                    }
-<Verbatim>^[ \t]*{CPPC}[/!]          {
+<Verbatim>^[ \t]*{CPPC}[/!]        {
   				     if (yyextra->blockName=="enddot" || yyextra->blockName=="endmsc" || yyextra->blockName=="enduml" || yyextra->blockName.at(0)=='f')
 				     {
 				       // see bug 487871, strip /// from dot images and formulas.
@@ -1343,7 +1353,9 @@ SLASHopt [/]*
 				     if (*yytext=='\n') { copyToOutput(yyscanner,"\n");}
   				   }
 <CComment,ReadLine,IncludeFile,Verbatim,VerbatimCode>{CMD}[a-z_A-Z][a-z_A-Z0-9-]*  { // expand alias without arguments
-				     replaceAliases(yyscanner,yytext,YY_START==ReadLine && yyextra->readLineCtx==SComment);
+                                     bool inCppComment = YY_START==ReadLine && yyextra->readLineCtx==SComment;
+                                     bool inCComment   = YY_START==CComment && yyextra->blockHeadCol>0;
+				     replaceAliases(yyscanner,yytext,inCppComment,inCComment);
   				   }
 <CComment,ReadLine,IncludeFile,Verbatim,VerbatimCode>{B}?{CMD}"ilinebr"{B}{CMD}"ialias{" { // expand alias with arguments
 				     yyextra->lastBlockContext=YY_START;
@@ -1362,7 +1374,16 @@ SLASHopt [/]*
 				     yyextra->lastEscaped=0;
 				     BEGIN( ReadAliasArgs );
   				   }
-<ReadAliasArgs>^[ \t]*"*"          { // skip leading *
+<ReadAliasArgs>^[ \t]*"*"          {
+                                     int indent=computeIndent(yytext)-1;
+                                     if (indent>yyextra->blockHeadCol) // assume part of block marker
+                                     {
+                                       yyextra->aliasString+=yytext;
+                                     }
+                                     else
+                                     {
+                                       // skip leading *
+                                     }
                                    }
 <ReadAliasArgs>^[ \t]*{CPPC}[/!]/[^\n]*   { // skip leading special comments (see bug 618079)
   				   }
@@ -1410,8 +1431,9 @@ SLASHopt [/]*
 				     if (!yyextra->lastEscaped) yyextra->blockCount--;
 				     if (yyextra->blockCount==0)
 				     {
-				       replaceAliases(yyscanner,yyextra->aliasString.view(),
-                                           yyextra->lastBlockContext==ReadLine && yyextra->readLineCtx==SComment);
+                                       bool inCppComment = yyextra->lastBlockContext==ReadLine && yyextra->readLineCtx==SComment;
+                                       bool inCComment = yyextra->lastBlockContext==CComment && yyextra->blockHeadCol>0;
+				       replaceAliases(yyscanner,yyextra->aliasString.view(),inCppComment,inCComment);
 				       BEGIN( yyextra->lastBlockContext );
 				     }
 				     yyextra->lastEscaped=FALSE;
@@ -1947,7 +1969,7 @@ static bool readIncludeFile(yyscan_t yyscanner,const QCString &inc,const QCStrin
 /** copies string \a s with length \a len to the output, while
  *  replacing any alias commands found in the string.
  */
-static void replaceAliases(yyscan_t yyscanner,std::string_view s,bool replaceComment)
+static void replaceAliases(yyscan_t yyscanner,std::string_view s,bool replaceCppComment,bool replaceCComment)
 {
   struct yyguts_t *yyg = (struct yyguts_t*)yyscanner;
   if (s.empty()) return;
@@ -1991,14 +2013,22 @@ static void replaceAliases(yyscan_t yyscanner,std::string_view s,bool replaceCom
       return;
     }
   }
-  //printf("replaceAliases(%s)->'%s' replaceComment=%d\n",qPrint(s),qPrint(result),replaceComment);
+  //printf("replaceAliases(%s)->'%s' replaceCppComment=%d replaceCComment=%d\n",qPrint(s),qPrint(result),replaceCppComment,replaceCComment);
   if (result!=s)
   {
-    if (replaceComment) // In case we are replacing a multiline /// comment by a C style comment
-                        // and we have new lines in the alias argument, we need to place back a /// for each new line
-                        // to prevent breaking the multiline comment into multiple C style comments
+    size_t numSpaces = yyextra->blockHeadCol>1 ? yyextra->blockHeadCol-1 : 0;
+    std::string spaces(numSpaces,' ');
+    if (replaceCppComment) // In case we are replacing a multiline /// comment by a C style comment
+                           // and we have new lines in the alias argument, we need to place back a /// for each new line
+                           // to prevent breaking the multiline comment into multiple C style comments
     {
-      result = substituteStringView(result,"\n","\n///");
+      std::string replacement = "\n"+spaces+"///";
+      result = substituteStringView(result,"\n",replacement);
+    }
+    else if (replaceCComment)
+    {
+      std::string replacement = "\n"+spaces+" * ";
+      result = substituteStringView(result,"\n",replacement);
     }
     expAlias.push_back(cmd);
     // add a ialias command to allow expansion of cmd again
