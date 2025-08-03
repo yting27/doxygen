@@ -46,6 +46,13 @@ void VintagePort::Show() const
   std::cout << "Year: " << year << std::endl;
 }
 
+void VintagePort::SetNN(const char* nn)
+{
+  delete[] nickname;
+  nickname = new char[strlen(nn) + 1];
+  strcpy_s(nickname, strlen(nn) + 1, nn);
+}
+
 std::ostream& operator<<(std::ostream& os, const VintagePort& vp)
 {
   os << static_cast<const Port&>(vp);
