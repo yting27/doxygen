@@ -115,8 +115,11 @@ protected:
   /**
    * @brief Vocal range types.
    */
-  enum { other, alto, contralto, soprano,
+  enum VocalRangeType { other, alto, contralto, soprano,
         bass, baritone, tenor };
+  /**
+   * @brief Number of vocal range types.
+   */
   enum { Vtypes = 7 };
 
   /**

@@ -2377,7 +2377,7 @@ GENERATE_AUTOGEN_DEF   = NO
 # database with symbols found by Doxygen stored in tables.
 # The default value is: NO.
 
-GENERATE_SQLITE3       = NO
+GENERATE_SQLITE3       = YES
 
 # The SQLITE3_OUTPUT tag is used to specify where the Sqlite3 database will be
 # put. If a relative path is entered the value of OUTPUT_DIRECTORY will be put
