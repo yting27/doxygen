@@ -37,3 +37,11 @@ Table `path`:
 - name: relative file path from Doxygen file
 - local: local library (1), standard library (0)
 
+
+
+## Getting Started
+
+```
+uv venv --python 3.12.3
+uv sync
+```
