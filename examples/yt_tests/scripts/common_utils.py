@@ -234,7 +234,6 @@ def insert_text_embed_table(embed_model: SentenceTransformer, conn: sqlite3.Conn
             f"INSERT INTO {ident(TEXT_EMBED_TABLE)}(rowid, {ident(TEXT_EMBED_COL)}) VALUES (?, ?)",
             [embed_idx, serialize_f32(vect_emb)],
         )
-        print(serialize_f32(vect_emb))
 
 def serialize_f32(vector: List[float]) -> bytes:
     """serializes a list of floats into a compact "raw bytes" format"""
